@@ -39,7 +39,8 @@ body {
 
 /* Latest Property */
 #latest-property{
-  margin: 120px 0;
+  background-color: #e3e4ed;
+  padding: 80px 0;
 }
 
 #latest-property h1{
@@ -55,6 +56,7 @@ body {
 }
 
 .latest-property-box{
+  background-color: #ffffff;
   width: 30%;
   border: 2px solid #22499b;
 }
@@ -80,12 +82,45 @@ body {
   font-size: 1.2rem;
 }
 
-.latest-property-box-text span{
+.price{
+  text-align: center;
   color: #3c69b2;
   font-size: 2.5rem;
   font-weight: 800;
+  border-top: 1px solid #20278d;
+  margin-top: 3rem;
+  padding-top: 2rem;
 }
 
-.price{
-  text-align: right;
+
+/* Popular places */
+
+#popular-places{
+  padding: 120px 0;
+}
+
+#popular-places h1{
+  text-align: center;
+  color: #060a3d;
+  font-size: 3rem;
+  margin-bottom: 80px;
+}
+
+.popolar-places-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.popular-place-box{
+  padding: 10px;
+  border: 1px solid #060a3d;
+}
+
+.popular-places-box img{
+  border: 1px solid #20278d;
+  width: 80%;
+}
+
+.popular-place-box h3{
+  
 }
