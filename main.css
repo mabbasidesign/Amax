@@ -40,7 +40,8 @@ body {
 /* Latest Property */
 #latest-property{
   background-color: #e3e4ed;
-  padding: 80px 0;
+  padding: 40px 0;
+  padding-bottom: 60px;
 }
 
 #latest-property h1{
@@ -96,7 +97,7 @@ body {
 /* Popular places */
 
 #popular-places{
-  padding: 120px 0;
+  padding: 60px 0;
 }
 
 #popular-places h1{
@@ -113,7 +114,9 @@ body {
 
 .popular-place-box{
   padding: 10px;
+  z-index: -1;
   border: 1px solid #060a3d;
+  position: absolute;
 }
 
 .popular-places-box img{
@@ -121,6 +124,131 @@ body {
   width: 80%;
 }
 
-.popular-place-box h3{
-  
+.popular-places-box h3{
+  color: #20278d;
+  position: relative;
+  left: 30%;
+  z-index: 1;
+}
+
+
+/* Statistic */
+#statistic{
+  background-color: #5676b5;
+  padding: 2rem;
+}
+
+#statistic .statistic-container{
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  color: #ffffff;
+}
+
+.statistic-box{
+  padding: 0 4rem;
+  text-align: center;
+  flex-basis: 30%;
+}
+
+#statistic .statistic-container h3{
+  font-size: 2.2rem;
+}
+
+#statistic .statistic-container h4{
+ font-size: 2rem;
+}
+
+.border-left{
+  border-left: 1px solid #ffffff;
+}
+
+
+/* Latest News */
+#latest-news{
+  padding: 60px 0;
+}
+
+#latest-news h1{
+  text-align: center;
+  color: #060a3d;
+  font-size: 3rem;
+  margin-bottom: 80px;
+}
+
+#latest-news .latest-news-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.latest-news-box{
+  flex-basis: 28%;
+}
+
+.latest-news-box img{
+  width: 100%;
+}
+
+.latest-news-box h3{
+  color: #3c69b2;
+  font-size: 2rem
+}
+
+.latest-news-box p{
+  color: #999ea8;
+  font-size: 1.4rem;
+  margin-bottom: 50px;
+}
+
+.latest-news-box a{
+  margin: auto;
+  text-decoration: none;
+  color: #20278d;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1rem;
+  border: 1px solid #20278d;
+}
+
+
+/* Footer */
+footer{
+  background-color: #060a3d;
+  padding: 60px 0;
+  color: #ffffff;
+}
+
+footer .footer-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footer-box{
+  flex-basis: 22%;
+  padding-bottom: 60px;
+}
+
+footer .footer-box h4{
+  font-size: 1.5rem;
+}
+
+footer .footer-box p{
+  font-size: .9rem;
+  line-height: 1.2rem;
+}
+
+input[type="text"]{
+  border: 1px solid #ffffff;
+  line-height: 1.2rem;
+  border-radius: 25px;
+  background-color: #060a3d;
+  padding: 3px;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+footer .footer-copy{
+  padding: 40px 0;
+  border-top: 1px solid #ffffff;
+  text-align: center;
 }
